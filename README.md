@@ -6,3 +6,4 @@ Equipe: Ana Júlia Melo Barbosa Félix, Alessandra Cristina Alves de Melo, Aline
 
 Orientador:
 - Daniel Fireman.
+-Engenharia de software. 

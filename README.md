@@ -4,6 +4,5 @@
 
 Equipe: Ana Júlia Melo Barbosa Félix, Alessandra Cristina Alves de Melo, Aline Rafaela Egito Costa, Maria Eloisa da Silva Santos.
 
-Orientador:
-- Daniel Fireman.
-- Engenharia de software. 
+
+ 

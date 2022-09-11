@@ -2,7 +2,7 @@ package app;
 
 import io.jooby.annotations.*;
 
-@Path("/index")
+@Path("/")
 public class Index {
 
   @GET

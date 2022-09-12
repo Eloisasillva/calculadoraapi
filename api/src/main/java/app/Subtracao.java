@@ -16,7 +16,7 @@ public class Subtracao {
                 throw new BadRequestException("A calculadora só opera nos reais. Não funciona com números imaginários!");    
             }
             if (b < 0) {
-                throw new BadRequestException("A calculadora só opera nos reais. Não funciona com números imaginários!");    
+                throw new BadRequestException("A calculadora só opera nos reais. Não funciona com números imaginários.");    
             }
             return (a-b);
             

@@ -3,7 +3,7 @@ package app;
 import io.jooby.annotations.*;
 import io.jooby.exception.BadRequestException;
 
-@Path("/Div/{a}/{b}")
+@Path("/div/{a}/{b}")
 public class Divisao {
     
     @GET

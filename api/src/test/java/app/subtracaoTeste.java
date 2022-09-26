@@ -16,7 +16,7 @@ public class subtracaoTeste {
         @Test
         public void testandoBase2(){
             Subtracao subtracao = new Subtracao();
-            double resultado = subtracao.calcula("8","1");
+            double resultado = subtracao.calcula("10","3");
             assertEquals(7.0, resultado);
         }
 

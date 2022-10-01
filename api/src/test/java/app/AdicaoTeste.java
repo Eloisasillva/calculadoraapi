@@ -8,15 +8,15 @@ public class AdicaoTeste {
 
     @Test
     public void testandoBase1(){
-        Subtracao subtracao = new Subtracao();
-        double resultado = subtracao.calcula("1","2");
+        Adicao adicao = new Adicao();
+        double resultado = adicao.calcula("1","2");
         assertEquals(3.0, resultado);
     }
 
     @Test
     public void testandoBase2(){
-        Subtracao subtracao = new Subtracao();
-        double resultado = subtracao.calcula("11","4");
+        Adicao adicao = new Adicao();
+        double resultado = adicao.calcula("11","4");
         assertEquals(15.0, resultado);
     } 
     

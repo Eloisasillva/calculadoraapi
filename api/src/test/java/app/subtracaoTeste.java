@@ -20,5 +20,12 @@ public class subtracaoTeste {
             assertEquals(7.0, resultado);
         }
 
+         @Test
+        public void testandoBase3(){
+            Subtracao subtracao = new Subtracao();
+            double resultado = subtracao.calcula("12","5");
+            assertEquals(7.0, resultado);
+        }
+
 
 }

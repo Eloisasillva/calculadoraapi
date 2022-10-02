@@ -12,6 +12,9 @@ public class App extends Jooby {
     mvc(new Multipilcacao());
 
 }
+  /**
+   * @param args
+   */
   public static void main(final String[] args) {
     runApp(args, App::new);
   }

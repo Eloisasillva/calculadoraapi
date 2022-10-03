@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AdicaoTeste3 {
 
     @Test
-    public void testandoBase1(){
+    public void verificarCasoBase(){
         Adicao adicao = new Adicao();
         double resultado = adicao.calcula("2","2");
         assertEquals(4.0, resultado);

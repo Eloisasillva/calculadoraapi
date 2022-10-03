@@ -11,11 +11,11 @@ public class DivisaoTest {
     public void verificarCasoBase(){
         divisao = new Divisao();
         double resultado = divisao.calcula("4","2");
-        assertEquals(4.0, resultado);
+        assertEquals(2.0, resultado);
     }
 
     @Test
-    public void verificarDivisaoDouble(){
+    public void verificarCasoBase2(){
         divisao = new Divisao();
         double resultado = divisao.calcula("7", "2");
         assertEquals(3.5, resultado);

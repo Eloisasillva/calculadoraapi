@@ -1,0 +1,23 @@
+package app;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class AdicaoTeste3 {
+
+    @Test
+    public void verificarCasoBase(){
+        Adicao adicao = new Adicao();
+        double resultado = adicao.calcula("2","2");
+        assertEquals(4.0, resultado);
+    }
+
+    @Test
+    public void testandoBase2(){
+        Adicao adicao = new Adicao();
+        double resultado = adicao.calcula("1","4");
+        assertEquals(5.0, resultado);
+    } 
+    
+}
